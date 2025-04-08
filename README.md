@@ -1,4 +1,4 @@
-# whoami-public
-Nama: andi dhany indra pratama
-instagram: @andishirat_
-Age: 21
+# Who Am I
+## **Nama:** Andi Shirat Maqbul  
+## **Instagram:** [@andishirat_](https://instagram.com/andishirat_)  
+## **Age:** 21
