@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+</head>
+<body>
+  <main>
+    <p>Username: <span id="username-output"></span></p>
+    <form>
+      <div>
+        <label for="username-input">Username:</label>
+        <input type="text" id="username-input" name="username" required />
+      </div>
+      <button id="btn-click">Create</button>
+    </form>
+  </main>
+<input \>
+  <script>
+    const usernameInput = document.querySelector("#username-input");
+    const btnClick = document.querySelector("#btn-click");
+
+    btnClick.addEventListener("click", (event) => {
+      event.preventDefault(); // Mencegah form reload
+      const username = usernameInput.value;
+      console.log(username); // Tampilkan di console
+
+      // Menampilkan username ke dalam span
+      const usernameOutput = document.querySelector("#username-output");
+      usernameOutput.textContent = username;
+    });
+  </script>
+</body>
+</html>
