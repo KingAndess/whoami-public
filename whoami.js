@@ -1,8 +1,10 @@
-const name = "Andi Shirat Maqbul";
-const instagram = "@andishirat_";
-const age = 21;
+const Whoami = {
+    name: "Andi Shirat Maqbul",
+    instagram: "@andishirat_",
+    age: 21,
+}
 
 console.log("Who Am I");
-console.log("Nama:", name);
-console.log("Instagram:", instagram);
-console.log("Age:", age);
+console.log(`Nama: ${Whoami.name}`);
+console.log(`Instagram: ${Whoami.instagram}`);
+console.log(`Umur: ${Whoami.age}`);
